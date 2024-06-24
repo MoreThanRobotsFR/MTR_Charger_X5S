@@ -7467,6 +7467,12 @@
 		(uuid "8f5913fc-66db-4315-914e-557e84b2feda")
 	)
 	(junction
+		(at 452.12 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "931a31dd-6c38-4b9d-a8c2-74da0abd95c4")
+	)
+	(junction
 		(at 325.12 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7605,6 +7611,12 @@
 		(uuid "d1e65425-ccce-4307-855c-971d1bb7df90")
 	)
 	(junction
+		(at 495.3 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3537ae9-e38d-48e2-b70b-f2b1c3017f30")
+	)
+	(junction
 		(at 309.88 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7687,6 +7699,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2a6256b-38a7-480c-9ead-352c8e6dc2d0")
+	)
+	(junction
+		(at 486.41 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f382a991-e90f-450d-9d2d-22abbb933647")
 	)
 	(junction
 		(at 261.62 27.94)
@@ -7910,7 +7928,7 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 149.86) (xy 466.09 149.86)
+			(xy 452.12 149.86) (xy 466.09 149.86)
 		)
 		(stroke
 			(width 0)
@@ -9290,6 +9308,16 @@
 	)
 	(wire
 		(pts
+			(xy 495.3 149.86) (xy 502.92 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9178b8d1-f2fd-4f60-b9de-269e525900e2")
+	)
+	(wire
+		(pts
 			(xy 252.73 85.09) (xy 252.73 82.55)
 		)
 		(stroke
@@ -9870,6 +9898,16 @@
 	)
 	(wire
 		(pts
+			(xy 486.41 149.86) (xy 486.41 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1a5c78d-0726-4778-a592-c46d5aa227c5")
+	)
+	(wire
+		(pts
 			(xy 252.73 82.55) (xy 254 82.55)
 		)
 		(stroke
@@ -10027,6 +10065,16 @@
 			(type default)
 		)
 		(uuid "e1c4d4ed-6dde-4213-a4e0-38bbb9e3763e")
+	)
+	(wire
+		(pts
+			(xy 486.41 149.86) (xy 495.3 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3236859-2b6e-4dd3-b453-b37c9275ac39")
 	)
 	(wire
 		(pts
@@ -32074,6 +32122,38 @@
 			)
 		)
 	)
+	(global_label "STAT1_Cell_01"
+		(shape input)
+		(at 457.2 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ae0c212-5f36-4bd3-831a-b246e4ba91cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 440.7288 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "Logic_RP2040"
+			(at 457.2 173.6408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape input)
 		(at 314.96 78.74 0)
@@ -32268,6 +32348,70 @@
 			)
 		)
 	)
+	(global_label "STAT1_Cell_01"
+		(shape input)
+		(at 457.2 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b71c6662-0307-4522-9ecd-c6885ffa438b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 440.7288 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "Logic_RP2040"
+			(at 457.2 169.8308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STAT1_Cell_01"
+		(shape input)
+		(at 457.2 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bbe66653-65f3-4587-9e94-5c49a95f7e79")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 440.7288 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "Logic_RP2040"
+			(at 457.2 177.4508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_D+"
 		(shape input)
 		(at 231.14 58.42 0)
@@ -32394,6 +32538,38 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CHARGING_01"
+		(shape input)
+		(at 502.92 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6b14905-e87c-4cae-9361-4e920d4af798")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 518.7262 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "POWER+5A"
+			(at 502.92 152.0508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -32764,6 +32940,71 @@
 			(project "MTR_Charger_X5S"
 				(path "/65a58d65-a3c0-477f-8ac1-7fa90696e91c"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 452.12 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03b17f05-b682-4391-8139-5bfcbb19d705")
+		(property "Reference" "#PWR071"
+			(at 452.12 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vsnk"
+			(at 452.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 452.12 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 452.12 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 452.12 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bad5d0d-999f-4a15-9f36-9f821c26be76")
+		)
+		(instances
+			(project "MTR_Charger_X5S"
+				(path "/65a58d65-a3c0-477f-8ac1-7fa90696e91c"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -33820,6 +34061,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 452.12 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27f6d29f-2b60-4acb-8faa-1802510be49b")
+		(property "Reference" "#PWR069"
+			(at 452.12 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 452.12 158.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 452.12 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 452.12 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 452.12 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9509d96-f6a4-4bdf-85c6-56d1270eac62")
+		)
+		(instances
+			(project "MTR_Charger_X5S"
+				(path "/65a58d65-a3c0-477f-8ac1-7fa90696e91c"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:ADS7830IPWR")
 		(at 222.25 205.74 270)
 		(unit 1)
@@ -34684,7 +34990,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 450.85 152.4 0)
+		(at 452.12 152.4 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -34693,7 +34999,7 @@
 		(dnp no)
 		(uuid "3df1fd66-cbd5-4076-9a87-061b77638732")
 		(property "Reference" "C24"
-			(at 444.5 151.13 0)
+			(at 445.77 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34701,8 +35007,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
-			(at 443.738 154.432 0)
+		(property "Value" "1uF"
+			(at 446.024 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34711,7 +35017,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 450.85 152.4 0)
+			(at 452.12 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34720,7 +35026,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 450.85 152.4 0)
+			(at 452.12 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34729,7 +35035,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 450.85 152.4 0)
+			(at 452.12 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37914,6 +38220,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 495.3 152.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac858dfe-2614-4b7a-ae37-2d1eca9f1eae")
+		(property "Reference" "C25"
+			(at 497.332 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 497.586 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 495.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 495.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 495.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75363833-dc99-47eb-ae9a-3b84bcf0d6de")
+		)
+		(pin "2"
+			(uuid "6ed26d69-1c28-4e43-af05-4660f3f3c357")
+		)
+		(instances
+			(project "MTR_Charger_X5S"
+				(path "/65a58d65-a3c0-477f-8ac1-7fa90696e91c"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 270.51 39.37 0)
 		(unit 1)
@@ -38038,6 +38414,71 @@
 			(project "MTR_Charger_X5S"
 				(path "/65a58d65-a3c0-477f-8ac1-7fa90696e91c"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 495.3 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b14549f7-b10d-40a4-ab29-9e7ffb5943f8")
+		(property "Reference" "#PWR070"
+			(at 495.3 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 495.3 158.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 495.3 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 495.3 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 495.3 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b012ea85-b55a-4900-8328-64cd7c63a2ea")
+		)
+		(instances
+			(project "MTR_Charger_X5S"
+				(path "/65a58d65-a3c0-477f-8ac1-7fa90696e91c"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
