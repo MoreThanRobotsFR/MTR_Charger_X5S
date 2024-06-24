@@ -287,6 +287,23 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "Diff_current_sense",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(72, 0, 72)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 0, 0)",
@@ -372,6 +389,23 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "SPI_Flash",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(132, 132, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 0, 231)",
@@ -400,13 +434,36 @@
       "/DP+": "USB",
       "/Vbus_Disch": "POWER<5A",
       "/Vbus_en_SNK": "POWER<5A",
+      "/XIN": "CLK",
+      "/XOUT": "CLK",
+      "/sence_01+": "Diff_current_sense",
+      "/sence_01-": "Diff_current_sense",
+      "/sence_02+": "Diff_current_sense",
+      "/sence_02-": "Diff_current_sense",
+      "/sence_03+": "Diff_current_sense",
+      "/sence_03-": "Diff_current_sense",
+      "/sence_04+": "Diff_current_sense",
+      "/sence_04-": "Diff_current_sense",
+      "/sence_05+": "Diff_current_sense",
+      "/sence_05-": "Diff_current_sense",
       "ALERT": "PD_Signal",
+      "CELL_01": "POWER+5A",
+      "CELL_02": "POWER+5A",
+      "CELL_03": "POWER+5A",
+      "CELL_04": "POWER+5A",
+      "CELL_05": "POWER+5A",
       "Net-(C7-Pad2)": "POWER<5A",
       "Net-(D1-VP)": "POWER+5A",
       "Net-(Q1-G1)": "POWER<5A",
       "Net-(Q1-S1)": "POWER<5A",
       "Net-(U2-VREG_1V2)": "POWER<5A",
       "PD_RESET": "PD_Signal",
+      "QSPI_CLK": "SPI_Flash",
+      "QSPI_SD0": "SPI_Flash",
+      "QSPI_SD1": "SPI_Flash",
+      "QSPI_SD2": "SPI_Flash",
+      "QSPI_SD3": "SPI_Flash",
+      "QSPI_SS": "SPI_Flash",
       "Vsnk": "POWER+5A"
     },
     "netclass_patterns": [
@@ -533,6 +590,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -548,6 +613,14 @@
     [
       "65a58d65-a3c0-477f-8ac1-7fa90696e91c",
       "Racine"
+    ],
+    [
+      "a2962f92-a684-4c5d-b76b-590a21c3cf50",
+      "Periodic battery level measurement simulation"
+    ],
+    [
+      "78849615-1996-455d-8ed9-469d8a7f7329",
+      "Auto Power Switch Circuit"
     ]
   ],
   "text_variables": {}
