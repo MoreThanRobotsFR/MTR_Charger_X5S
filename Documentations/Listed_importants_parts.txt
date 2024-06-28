@@ -1,0 +1,30 @@
+Mfr. Part # LMC6482AIMX/NOPB  LCSC Part # C12620    : Precision OpAmps
+Mfr. Part # LMV358IDR         LCSC Part # C63813    : Rail-to-Rail OpAmps
+Mfr. Part # IRLZ44NPBF        LCSC Part # C38774    : Power N-Channel MOSFET
+Mfr. Part # TPL0401B-10DCKR   LCSC Part # C2666599  : Digital potentiometer
+Mfr. Part # ADS7830IPWR       LCSC Part # C161747   : 8-Channel Sampling ADC
+Mfr. Part # TCA9535PWR        LCSC Part # C130204   : 16-bit IO Expenders
+Mfr. Part # STUSB4500QTR      LCSC Part # C2678061  : USB-C PD sink controller
+Mfr. Part # MCP73833-AMI/MF   LCSC Part # C635264   : Battery Management Circuit
+Mfr. Part # RP2040            LCSC Part # C2040     : µContoler
+Mfr. Part # W25Q16JVUXIQ      LCSC Part # C2843335  : 16MB QSPI Flash
+Mfr. Part # X322512MSB4SI     LCSC Part # C9002     : 12MHz Crystal Oscillators
+Mfr. Part # BH-18650-B5BA016  LCSC Part # C19184086 : 18650 Battery Case
+Mfr. Part # TF-04A            LCSC Part # C145799   : microSD card slot
+Mfr. Part # TPS63051YFFR      LCSC Part # C2879621  : VBuck 3.3V 1A
+Mfr. Part # TPS62163DSGR      LCSC Part # C97534    : VBuck 5V 1A
+Mfr. Part # WS2812B-2020      LCSC Part # C965555   : LED RGB
+Mfr. Part # HS96F04BF         LCSC Part # C5139757  : OLED Display 0.96in 128x64
+Mfr. Part # PCSR2512DR033M6   LCSC Part # C20417217 : Rshunt 33 mOhms 0.5% package 2512
+Mfr. Part # FRH0603D1001TSV   LCSC Part # C3013341  : 1 kOhms 0.5% package 0603
+Mfr. Part # ARG03DTC1003      LCSC Part # C2758260  : 100 kOhms 0.5% package 0603
+Mfr. Part # NCP18XH103F03RB   LCSC Part # C13564    : NTC 10kOhms Package 0603
+Mfr. Part # SF4007SM5         LCSC Part # C2149489  : Cooling fan 5V
+Mfr. Part # AO3480C           LCSC Part # C705501   : Logic N-Channel MOSFET
+Mfr. Part # AO3401A           LCSC Part # C15127    : Logic P-Channel MOSFET
+Mfr. Part # DS1337S+T&R       LCSC Part # C9867     : Real Time Clock
+Mfr. Part # T803832768KRDDZTX LCSC Part # C5917315  : 32.768kHz Crystal Oscillators
+Mfr. Part # BS-12-B3AA003     LCSC Part # C964723   : CR1220 Battery Case
+Mfr. Part # 24.243.2          LCSC Part # C7437322  : Black Banana Connectors
+Mfr. Part # 24.243.1          LCSC Part # C7437321  : Red Banana Connectors
+Mfr. Part # CD74HCT4051M96    LCSC Part # C406862   : Multiplexer 1 to 8
