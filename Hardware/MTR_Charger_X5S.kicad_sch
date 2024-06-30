@@ -41443,7 +41443,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Micro_SD_Card")
-		(at 643.89 99.06 0)
+		(at 589.28 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41452,7 +41452,7 @@
 		(fields_autoplaced yes)
 		(uuid "8cb1bc30-f9dd-4f06-a722-729bdb7fc378")
 		(property "Reference" "J2"
-			(at 644.525 80.01 0)
+			(at 589.915 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41460,7 +41460,7 @@
 			)
 		)
 		(property "Value" "Micro_SD_Card"
-			(at 644.525 82.55 0)
+			(at 589.915 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41468,7 +41468,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:TF-SMD_TF-04A"
-			(at 673.1 91.44 0)
+			(at 618.49 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41477,7 +41477,7 @@
 			)
 		)
 		(property "Datasheet" "http://katalog.we-online.de/em/datasheet/693072010801.pdf"
-			(at 643.89 99.06 0)
+			(at 589.28 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41486,7 +41486,7 @@
 			)
 		)
 		(property "Description" "Micro SD Card Socket"
-			(at 643.89 99.06 0)
+			(at 589.28 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41495,7 +41495,7 @@
 			)
 		)
 		(property "LCSC" "C145799"
-			(at 643.89 99.06 0)
+			(at 589.28 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
