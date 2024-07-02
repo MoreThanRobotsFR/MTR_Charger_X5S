@@ -45088,7 +45088,7 @@
 				)
 			)
 		)
-		(property "Value" "TCA9535PWR_C130204"
+		(property "Value" "TCA9535PWR"
 			(at 556.26 163.83 0)
 			(effects
 				(font
