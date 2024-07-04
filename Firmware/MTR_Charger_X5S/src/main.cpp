@@ -1,10 +1,23 @@
+
 #include <Wire.h>
 #include <MTR_STUSB4500.h>
+#include <MTR_ADS7830.h>
+
+#define ADS7830_ADDRESS 0x48 // I2C Address (assuming A0 and A1 are both tied to GND)
+
+// Create an instance of the ADS7830 class
+MTR_ADS7830 adc;
 
 // Create an instance of the STUSB4500 class
 MTR_STUSB4500 stusb4500;
 
 void setup() {
+
+  // Initialize the serial port
+  Serial.begin(9600);
+
+  adc.init();
+  
   // Initialize the STUSB4500 device
   stusb4500.init();
 
@@ -41,5 +54,13 @@ void loop() {
     Serial.println(deviceID, HEX);
   }
 
-  delay(1000); // Wait for 1 second
+  for (uint8_t i = 0; i < 8; i++) {
+    uint8_t value = adc.readChannel(i);
+    Serial.print("Channel ");
+    Serial.print(i);
+    Serial.print(": ");
+    Serial.println(value);
+  }
+    
+  delay(1000); // Wait for a second before the next read
 }
